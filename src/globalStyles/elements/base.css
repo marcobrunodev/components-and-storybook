@@ -1,0 +1,13 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(
+    180deg,
+    var(--color-second-black) 0%,
+    var(--color-first-black) 100%
+  );
+}
