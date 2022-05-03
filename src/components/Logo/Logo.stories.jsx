@@ -1,11 +1,13 @@
-import Logo from "../../components/Logo";
+import Logo from ".";
 
 export default {
   title: "components/Logo",
   component: Logo,
 };
 
-const Template = (args) => <Logo {...args} />;
+const Template = function templateLogo(args) {
+  return <Logo {...args} />;
+};
 
 export const Default = Template.bind({});
 Default.args = {
