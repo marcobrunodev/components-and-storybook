@@ -1,0 +1,8 @@
+.title {
+  font-family: "Roboto", sans-serif;
+  color: #fffcee;
+  font-size: var(--size);
+  line-height: 1em;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}
